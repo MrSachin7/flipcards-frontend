@@ -2,6 +2,12 @@
     perspective: 1000px;
     position: relative;
     cursor: pointer;
+    border: 1px solid #f0f0f0;
+    transition: all 0.2s ease;
+}
+
+.card-container:hover{
+    box-shadow: 0 0 10px 0 rgba(255, 0, 0, 0.8);
 }
 
 .card {

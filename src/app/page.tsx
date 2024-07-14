@@ -21,7 +21,7 @@ export default function Home() {
                 Cards Gallery
             </h1>
 
-            <div className={"flex flex-wrap justify-center gap-1 mt-5"}>
+            <div className={"flex flex-wrap justify-center gap-2 mt-5"}>
                 {
                     data && data.map(card => (
                         <FlipCard key={card.id} card={card}/>
