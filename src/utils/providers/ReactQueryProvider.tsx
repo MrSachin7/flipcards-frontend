@@ -10,7 +10,7 @@ const ReactQueryProvider = ({children}: { children: React.ReactNode }) => {
         <QueryClientProvider client={queryClient}>
             {children}
             {/* Use the devtools to check loading and error states*/}
-            <ReactQueryDevtools initialIsOpen={false}/>
+            <ReactQueryDevtools initialIsOpen={true}/>
         </QueryClientProvider>
     );
 }
